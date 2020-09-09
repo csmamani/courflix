@@ -9,6 +9,8 @@ $font-color: #fff;
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #000;
+  margin: 0;
+  padding: 0;
 }
 /*
 .header-section {
@@ -74,11 +76,12 @@ body {
   color: #fff;
 
   .hero-section {
-    background-image: url(/img/Bitmapblack-summer-img.png);
+    background-image: url(/img/black-summer-img.png);
     background-size: cover;
     overflow: hidden;
     padding: 72px 13px 38px;
     position: relative;
+    width: 100%;
     margin-top: 60px;
 
     .hero-header {
@@ -121,12 +124,11 @@ body {
   }
 
   .series-section {
-    padding: auto 13px;
+    margin-left: 13px;
     .series-title {
       font-weight: 700;
       font-size: 18px;
       margin-bottom: 13px;
-      margin-left: 13px;
     }
     .series-subsection {
       margin-bottom: 22px;
@@ -137,7 +139,7 @@ body {
 
         img {
           width: 221px;
-          margin-left: 13px;
+          margin-right: 13px;
         }
       }
     }
