@@ -63,6 +63,7 @@ body {
     width: 130px;
     margin-left: 20px;
   }
+
   .nav-bar {
     display: none;
   }
@@ -70,13 +71,15 @@ body {
 
 .main-container {
   width: 100%;
+  color: #fff;
+
   .hero-section {
     background-image: url(/img/Bitmapblack-summer-img.png);
     background-size: cover;
+    overflow: hidden;
     padding: 72px 13px 38px;
     position: relative;
-    top: 60px;
-    color: #fff;
+    margin-top: 60px;
 
     .hero-header {
       display: none;
@@ -88,9 +91,14 @@ body {
         font-weight: 700;
         font-size: 24px;
       }
+      h2 {
+        font-size: 16px;
+      }
+
       p {
         display: none;
       }
+
       .hero-button {
         display: inline-block;
         font-weight: 700;
@@ -101,11 +109,36 @@ body {
         border-radius: 3px;
         font-size: 16px;
       }
+
       .hero-button:first-of-type {
         background-color: #ff0000;
       }
+
       .hero-button:last-of-type {
         background-color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+
+  .series-section {
+    padding: auto 13px;
+    .series-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 13px;
+      margin-left: 13px;
+    }
+    .series-subsection {
+      margin-bottom: 22px;
+      .series-container {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+
+        img {
+          width: 221px;
+          margin-left: 13px;
+        }
       }
     }
   }
