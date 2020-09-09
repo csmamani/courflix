@@ -79,7 +79,7 @@ body {
 }
 
 .main-container .hero-section {
-  background-image: url(/img/black-summer-img.png);
+  background-image: url("../img/black-summer-img.png");
   background-size: cover;
   overflow: hidden;
   padding: 72px 13px 38px;
@@ -152,6 +152,7 @@ body {
 
 .main-container .series-section .series-subsection .series-container img {
   width: 221px;
+  height: auto;
   margin-right: 13px;
 }
 /*# sourceMappingURL=styles.css.map */
