@@ -3,32 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Courflix</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
     <header class="header-section">
-      <img src="img/courflix-logo.png" alt="Courflix" class="logo" />
+      <a href="#" class="burger-menu-icon"><img src="img/menu-icon.svg" alt="" /></a>
+      <a class="logo-wrapper" href="/index.html">
+        <img src="img/courflix-logo.png" alt="Courflix" class="logo" />
+      </a>
       <nav class="nav-bar">
         <ul>
-          <a href="#"><li>Inicio</li></a>
-          <a href="#"><li>Series</li></a>
-          <a href="#"><li>Peliculas</li></a>
-          <a href="#"><li>Agregados recientemente</li></a>
-          <a href="#"><li>Mi lista</li></a>
+          <a class="link" href="#"><li>Inicio</li></a>
+          <a class="link" href="#"><li>Series</li></a>
+          <a class="link" href="#"><li>Peliculas</li></a>
+          <a class="link" href="#"><li>Agregados recientemente</li></a>
+          <a class="link" href="#"><li>Mi lista</li></a>
         </ul>
       </nav>
     </header>
     <main class="main-container">
-      <section class="hero-section">
-        <div class="hero-header"><p>Original de COURFLIX</p></div>
-        <div class="hero-body">
-          <h1 class="hero-title">Black Summer</h1>
+      <section class="hero-section current-serie">
+        <div class="selected-serie">
+          <div class="logo-container">
+            <img class="serie-logo" src="img/breaking-bad-logo.png" alt="" />
+          </div>
+          <div class="serie-data">
+            <span class="affinity-data">95% de coincidencia</span>
+            <span class="year-data">2016</span>
+            <span class="age-data">16+</span>
+            <span class="seasons-data">5 temporadas</span>
+          </div>
           <a href="#" class="hero-button">Reproducir</a>
           <a href="#" class="hero-button">+ mi lista</a>
-          <p>Ve la temporada 1</p>
-          <p>
-            Una ansiada luna de miel. Un asesinato terrible. Varios sospechosos. Si
-            sobreviven, serán unas vacaciones de ensueño.
+          <p class="serie-description">
+            Un profesor de Química de secundaria con cáncer terminal se asocia a un
+            exestudiante para asegurar el futuro de su familia al fabricar y vender
+            metanfetamina.
           </p>
         </div>
       </section>

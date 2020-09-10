@@ -125,6 +125,68 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.main-container .hero-section.current-serie {
+  background-image: url("../img/breaking-bad-img.png");
+  background-size: cover;
+  padding: 72px 13px 38px;
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.main-container .hero-section.current-serie .serie-logo {
+  width: 190px;
+}
+
+.main-container .hero-section.current-serie .serie-data {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.main-container .hero-section.current-serie .serie-data .affinity-data {
+  color: #009c04;
+  font-weight: 700;
+}
+
+.main-container .hero-section.current-serie .serie-data .year-data {
+  font-weight: 100;
+}
+
+.main-container .hero-section.current-serie .serie-data .age-data {
+  border: 1px solid #979797;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.main-container .hero-section.current-serie .serie-data .seasons-data {
+  font-weight: 700;
+}
+
+.main-container .hero-section.current-serie .hero-button {
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 22px;
+  margin: 13px 7px 13px 0;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.main-container .hero-section.current-serie .hero-button:first-of-type {
+  background-color: #ff0000;
+}
+
+.main-container .hero-section.current-serie .hero-button:last-of-type {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-container .hero-section.current-serie .serie-description {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
 .main-container .series-section {
   margin-left: 13px;
 }
